@@ -164,7 +164,7 @@ function changeLink() {
 }
 var currentURL = location.href,
     str = currentURL,
-    res = str.replace("https://sdpoi.blogspot.com/p/poi.html?url=", "");
+    res = str.replace("https://sdpoi.blogspot.com/2019/07/poi.html?url=", "");
 document.write('<button target="_self" class="btn btn-success btn-block redirect" style="display: block;" id="download" onclick="changeLink()">Continue</button>');
 onload: generate();
 //]]>
